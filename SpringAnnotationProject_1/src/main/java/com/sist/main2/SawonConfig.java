@@ -2,25 +2,25 @@ package com.sist.main2;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-// => Boot¿¡¼­ Áß½É 
+// => Bootï¿½ï¿½ï¿½ï¿½ ï¿½ß½ï¿½ 
 @Configuration
 public class SawonConfig {
   /*
    *    <bean id="sa" class="com.sist.main2.Sawon"
    *       p:sabun="1"
-   *       p:name="½ÉÃ»ÀÌ"
-   *       p:dept="°³¹ßºÎ"
-   *       p:loc="ºÎ»ê"
-   *    />
+   *       p:name="ï¿½ï¿½Ã»ï¿½ï¿½"
+   *       p:dept="ï¿½ï¿½ï¿½ßºï¿½"
+   *       p:loc="ï¿½Î»ï¿½"
+   *    /> 
    */
    @Bean("sa")
    public Sawon sawon()
    {
 	   Sawon s=new Sawon();
 	   s.setSabun(1);
-	   s.setName("½ÉÃ»ÀÌ");
-	   s.setDept("°³¹ßºÎ");
-	   s.setLoc("ºÎ»ê");
+	   s.setName("ï¿½ï¿½Ã»ï¿½ï¿½");
+	   s.setDept("ï¿½ï¿½ï¿½ßºï¿½");
+	   s.setLoc("ï¿½Î»ï¿½");
 	   
 	   return s;
    }

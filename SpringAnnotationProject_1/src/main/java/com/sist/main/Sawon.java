@@ -10,3 +10,4 @@ public class Sawon {
    private int sabun;
    private String name,dept,job;
 }
+ 

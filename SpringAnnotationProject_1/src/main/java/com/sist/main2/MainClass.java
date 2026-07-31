@@ -2,21 +2,21 @@ package com.sist.main2;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 /*
- *   ÀÏ¹Ý Container 
+ *   ï¿½Ï¹ï¿½ Container 
  *       ApplicationContext
- *   À¥  Container 
+ *   ï¿½ï¿½  Container 
  *       WebApplicationContext
- *   ¾î³ëÅ×ÀÌ¼Ç Container
+ *   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¼ï¿½ Container
  *       AnnotationConfigApplicationContext
  *       
- *   *** ½ºÇÁ¸µÀº À¥¿ëÀÌ ¾Æ´Ï´Ù : ¾ÖÇÃ¸®ÄÉÀÌ¼Ç¿ë => °ÔÀÓ (Å¬·¡½º°¡ º¹ÀâÇÏ°Ô Å¬·¡½º°¡ ¸¹Àº °æ¿ì)
- *   *** ÄÚÆ²¸° / ÀÚ¹Ù 
- *       => µ¿ÀÏ 
+ *   *** ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Ï´ï¿½ : ï¿½ï¿½ï¿½Ã¸ï¿½ï¿½ï¿½ï¿½Ì¼Ç¿ï¿½ => ï¿½ï¿½ï¿½ï¿½ (Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½)
+ *   *** ï¿½ï¿½Æ²ï¿½ï¿½ / ï¿½Ú¹ï¿½ 
+ *       => ï¿½ï¿½ï¿½ï¿½ 
  *          @
- *          public fun aaa():String => ÀÚ¹Ù´Â ±×´ë·Î »ç¿ëÀÌ °¡´É 
- *                                  => JVM 
+ *          public fun aaa():String => ï¿½Ú¹Ù´ï¿½ ï¿½×´ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 
+ *                                  => JVM  
  *          var / val 
- *          |º¯¼ö  |»ó¼ö 
+ *          |ï¿½ï¿½ï¿½ï¿½  |ï¿½ï¿½ï¿½ 
  */
 public class MainClass {
 

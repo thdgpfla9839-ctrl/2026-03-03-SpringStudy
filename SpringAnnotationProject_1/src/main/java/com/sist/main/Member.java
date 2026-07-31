@@ -3,10 +3,11 @@ package com.sist.main;
 import org.springframework.stereotype.Component;
 
 import lombok.Data;
-// VO´Â °³¹ßÀÚ Ã³¸® => µ¥ÀÌÅÍÇüÀÌ´Ù 
+// VOï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½ => ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½ 
 @Data
 @Component
 public class Member {
    private int mno;
    private String name,address,phone;
 }
+ 

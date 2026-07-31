@@ -8,18 +8,18 @@ public class Proxy {
   }
   public void getConnection()
   {
-	  System.out.println("¿À¶óÅ¬ ¿¬°á...");
+	  System.out.println("ï¿½ï¿½ï¿½ï¿½Å¬ ï¿½ï¿½ï¿½ï¿½...");
   }
   public void disConnection()
   {
-	  System.out.println("¿À¶óÅ¬ ¿¬°á ÇØÁ¦...");
+	  System.out.println("ï¿½ï¿½ï¿½ï¿½Å¬ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½...");
   }
-  // Weaving => È£Ãâ 
-  // AOP => ´ë¸®ÀÚ (proxy ÆÐÅÏ)
+  // Weaving => È£ï¿½ï¿½ 
+  // AOP => ï¿½ë¸®ï¿½ï¿½ (proxy ï¿½ï¿½ï¿½ï¿½)
   public void select()
   {
 	  getConnection();
 	  m.select();
-	  disConnection();
+	  disConnection(); 
   }
 }

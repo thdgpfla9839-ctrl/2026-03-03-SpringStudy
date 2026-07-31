@@ -6,35 +6,35 @@ import org.springframework.stereotype.Repository;
 public class MyDAO {
   public void getConnection()
   {
-	  System.out.println("¿À¶óÅ¬ ¿¬°á...");
+	  System.out.println("ï¿½ï¿½ï¿½ï¿½Å¬ ï¿½ï¿½ï¿½ï¿½...");
   }
   public void disConnection()
   {
-	  System.out.println("¿À¶óÅ¬ ¿¬°á ÇØÁ¦...");
+	  System.out.println("ï¿½ï¿½ï¿½ï¿½Å¬ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½...");
   }
   // OOP => AOP   
   public void dbselect()
   {
 	  //getConnection();//
-	  System.out.println("µ¥ÀÌÅÍ ÀÐ±â"); // ÇÙ½É ¸ðµâ 
-	  //disConnection();// => °øÅë ¸ðµâ 
+	  System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð±ï¿½"); // ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ 
+	  //disConnection();// => ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ 
   }
   public void dbinsert()
   {
-	  //getConnection();
-	  System.out.println("µ¥ÀÌÅÍ Ãß°¡");
+	  //getConnection(); 
+	  System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½");
 	  //disConnection();
   }
   public void dbupdate() // db*
   {
 	  //getConnection();
-	  System.out.println("µ¥ÀÌÅÍ ¼öÁ¤");
+	  System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 	  //disConnection();
   }
   public void dbdelete()
   {
 	  //getConnection();
-	  System.out.println("µ¥ÀÌÅÍ »èÁ¦");
+	  System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 	  //disConnection();
   }
 }

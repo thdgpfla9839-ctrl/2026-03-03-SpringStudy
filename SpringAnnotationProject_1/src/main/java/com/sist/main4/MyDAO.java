@@ -3,6 +3,7 @@ package com.sist.main4;
 public class MyDAO {
   public void select()
   {
-	  System.out.println("©ю╤Се╛©║╪╜ ╣╔юлем юп╠Б");
+	  System.out.println("О©╫О©╫О©╫О©╫е╛О©╫О©╫О©╫О©╫ О©╫О©╫О©╫О©╫О©╫О©╫ О©╫п╠О©╫");
   }
 }
+ 

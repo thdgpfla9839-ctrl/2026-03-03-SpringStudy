@@ -24,7 +24,7 @@
          @Autowired, : 스프링에서 자동으로 값(주소) 대입
          @PostConstruct, : init-method
          @PreDestroy, : destory-method 
-         @Resource : 
+         @Resource :  
          
          interface A
          

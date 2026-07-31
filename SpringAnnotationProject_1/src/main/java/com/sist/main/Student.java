@@ -13,3 +13,4 @@ public class Student {
   private int hakbun;
   private String name,subject;
 }
+ 
